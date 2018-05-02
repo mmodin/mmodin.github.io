@@ -6,12 +6,6 @@ description: Useful stuffs
 github_username: mmodin
 
 # Build settings
-theme: jekyll-theme-cayman
+theme: minima
 markdown: kramdown
 
-# Site menu settings
-menu:
-  - title: "Blog"
-    url: "/blog"
-  - title: "Projects"
-    url: "/projects"
