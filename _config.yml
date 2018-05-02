@@ -1,3 +1,11 @@
 theme: jekyll-theme-cayman
 name: The Data Scientist
 markdown: kramdown
+title: The Data Scientist
+
+# Site menu settings
+menu:
+  - title: "Blog"
+    url: "/blog"
+  - title: "Projects"
+    url: "/projects"
