@@ -1,7 +1,13 @@
-theme: jekyll-theme-cayman
-name: The Data Scientist
-markdown: kramdown
+# Basic options
 title: The Data Scientist
+author: Mathias Modin
+email: mathias.concha@gmail.com
+description: Useful stuffs
+github_username: mmodin
+
+# Build settings
+theme: jekyll-theme-cayman
+markdown: kramdown
 
 # Site menu settings
 menu:
