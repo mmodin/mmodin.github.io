@@ -1,6 +1,6 @@
 ---
 layout: post
-title: WhatsApp text message analysis between me and my girlfriend
+title: "WhatsApp text message analysis between me and my girlfriend"
 date: 2018-05-10
 categories: Data
 ---
