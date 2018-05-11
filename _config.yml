@@ -2,10 +2,13 @@
 title: The Data Scientist
 author: Mathias Modin
 email: mathias.concha@gmail.com
-description: Useful stuffs
+description: "Powered by GitHub Pages, Jekyll and Indian food."
 github_username: mmodin
 
 # Build settings
 theme: minima
 markdown: kramdown
+
+# Stuff
+# permalink: /blog/:year-:month-:day/:title
 
