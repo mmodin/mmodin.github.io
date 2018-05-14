@@ -4,6 +4,7 @@ author: Mathias Modin
 email: mathias.concha@gmail.com
 description: "Powered by GitHub Pages, Jekyll and Indian food."
 github_username: mmodin
+url: https://mmodin.com
 
 # Build settings
 theme: minima
