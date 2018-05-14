@@ -39,7 +39,7 @@ https://mmodin.com/blog/2018-05-12/letsencrypt.org
 https://mmodin.com/blog/2018-05-12/letsencrypt.org
 ```
 
-The solution to the problem was was edit `_config.yml` and include `url: https://mmodin.com`. You would subsequently link to images using e.g. `absolute_url`:
+The solution to the problem was to edit `_config.yml` and include `url: https://mmodin.com`. You would subsequently link to images using e.g. `absolute_url`:
 
 ```
 <p align="center">
