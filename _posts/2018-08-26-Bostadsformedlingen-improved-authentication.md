@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Bostdsformedlingen improved (authentication)"
+title: "Bostadsformedlingen improved (authentication)"
 date: 2018-08-26
 categories: [Python, Bostadsformedlingen, data, Data Science, Stockholm, housing]
 ---
 
-About a month ago I wrote a summary of my latest project - [Automating the apartment hunt via Bostadsformedlingen]({% post_url 2018-05-12-I-bought-a-custom-domain %}). While not having directly resulted in finding an apartment it has certainly made it _a lot_ easier and almost effortless. However, receiving daily emails and experiencing some of the pain points there were some room for improvement. More specificallly, once listing the appartments it was unclear whether I was eligible for applying, despite filtering away some of the obvious candidates. Furthermore, it was also unclear what position I would have in the queue and hence my chances at getting the apartment at the end.
+About a month ago I wrote a summary of my latest project - [Automating the apartment hunt via Bostadsformedlingen]({% post_url 2018-07-29-Automating-the-appartment-hunt %}). While not having directly resulted in finding an apartment it has certainly made it _a lot_ easier and almost effortless. However, receiving daily emails and experiencing some of the pain points there were some room for improvement. More specificallly, once listing the appartments it was unclear whether I was eligible for applying, despite filtering away some of the obvious candidates. Furthermore, it was also unclear what position I would have in the queue and hence my chances at getting the apartment at the end.
 
 It turns out that both of these issues can be solved by logging in to the website before downloading all the relevant resources such as the listings. The trick is to perserve the session (and all the cookies) between requesting different resources from the webserver. It turns out that there are two main cookies that needs to be perserved:
 
